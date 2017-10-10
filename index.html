@@ -1,4 +1,5 @@
-
+<script src="js/jquery.min.js"></script>
+<div id="header"></div>
 <article>
     <div class="banner">
       <ul class="texts">
@@ -34,8 +35,12 @@
     </div>
 	<div class="page"></div>
   </article>
-
-  <script src="js/silder.js"></script>
   <div class="clear"></div>
   <!-- 清除浮动 --> 
 </div>
+<script>
+  $(document).ready(function(){
+    $("#header").load("header.html");
+  });
+
+</script>
